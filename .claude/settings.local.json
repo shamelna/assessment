@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc --noEmit)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(node \"/c/Program Files/nodejs/node_modules/npm/bin/npm-cli.js\" --version)",
+      "Bash(netstat -ano)",
+      "Bash(findstr :3000)",
+      "Bash(node \"C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js\" run build)",
+      "Bash(node \"C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js\" run dev -- --port 3000)",
+      "Bash(taskkill /PID 90824 /F)",
+      "Bash(cmd /c \"taskkill /PID 90824 /F\")",
+      "Bash(echo exit:$?)",
+      "Bash(cmd /c \"taskkill /PID 90824 /F 2>&1\")",
+      "Bash(powershell -Command \"Stop-Process -Id 90824 -Force -ErrorAction SilentlyContinue; Start-Sleep -Milliseconds 500; \\(Get-NetTCPConnection -LocalPort 3000 -ErrorAction SilentlyContinue\\).Count\")",
+      "Bash(powershell -Command \"New-Item -ItemType Directory -Force -Path ''D:\\\\KA_Assessment\\\\public'' | Out-Null; Invoke-WebRequest -Uri ''http://practitioner.kaizenacademy.education/logo_round.png'' -OutFile ''D:\\\\KA_Assessment\\\\public\\\\logo_round.png''; \\(Get-Item ''D:\\\\KA_Assessment\\\\public\\\\logo_round.png''\\).Length\")",
+      "Bash(powershell:*)",
+      "Bash(curl:*)",
+      "Bash(npm run:*)",
+      "Bash(cmd:*)",
+      "Bash(node:*)",
+      "Bash(sort:*)",
+      "Bash(zcat:*)",
+      "Bash(sed:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(vercel:*)",
+      "Bash(npx vercel:* and i don't necessarily want to deploy from the upload folder just do what is necessary to have the app up and running)"
+    ]
+  }
+}
